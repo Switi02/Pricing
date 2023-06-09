@@ -1,0 +1,92 @@
+*{
+    list-style-type: none;
+    box-sizing: content-box;
+    margin: 0%;
+}
+
+.rect{
+    
+    display: inline-block;
+    position: static;
+    width: 20%;
+    border-style:groove;
+    border-radius: 10px;
+    margin-top: 110px;
+    margin-left: 22%;
+}
+
+.rectRed{
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    border-style:groove;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+#basic, #stand{
+    height: 35px;
+    text-align: center;
+    background-color: rgb(44, 179, 105);
+    color: white;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#standard{
+    height: 35px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    padding: 7px 5px 5px;
+}
+
+ul{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+li{
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-stretch: expanded;
+}
+
+.true::before{
+    content: '✔️';
+}
+
+.false::before{
+    content: '❌';
+}
+
+.price{
+    text-align: center;
+    font-size: 30px;
+    font-weight:bolder;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+button{
+    width: 220px;
+    margin-left: 22px;
+    margin-bottom: 30px;
+    background-color: rgb(44, 179, 105);
+    border-color: rgb(44, 179, 105);
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px 5px;
+    font-size: 15px;
+}
+
+
